@@ -1,0 +1,69 @@
+body {
+	background-color: #b3e0ff;
+	text-align: center;
+}
+
+#formTitleInsert, #formTitleDelete, #formTitleUpdate, #formTitleSearch, #formTitleDisplay {
+	font-family: Arial
+}
+
+#insertStud {
+  background-color: #33adff;
+  padding: 20px;
+  margin: 0 auto; /*keep form in center*/
+  width: 400px; 
+  text-align: left;
+  border: 2px solid #0099ff;
+}
+
+#deleteStud {
+  background-color: #33adff;
+  padding: 20px;
+  margin: 0 auto; /*keep form in center*/
+  width: 400px; 
+  text-align: left;
+  border: 2px solid #0099ff;
+}
+
+#updateStud {
+  background-color: #33adff;
+  padding: 20px;
+  margin: 0 auto; /*keep form in center*/
+  width: 400px; 
+  text-align: left;
+  border: 2px solid #0099ff;
+}
+
+#searchStud {
+  background-color: #33adff;
+  padding: 20px;
+  margin: 0 auto; /*keep form in center*/
+  width: 400px; 
+  text-align: left;
+  border: 2px solid #0099ff;
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: #0073e6;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+input[type="text"], select {
+  width: 360px;
+  padding: 12px;
+  background-color: #b3e0ff;
+}
+
+input[type="radio"] {
+    display: inline;
+}
+
+#btnsInsert, #btnsDelete, #btnsUpdate, #btnsSearch {
+  text-align:center;
+}
+
+* {
+    box-sizing: border-box;
+}

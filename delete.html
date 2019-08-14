@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Elective Registration- Delete</title>
+        <link rel="stylesheet" type="text/css" href="electivestyle.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Insert</a> |
+            <a href="delete.html">Delete</a> |
+            <a href="update.html">Update</a> |
+            <a href="search.html">Search</a> |
+            <a href="crudServlet?param=del">View</a>
+        </nav>
+        <h1 id="formTitleDelete">Elective Registration- Delete</h1>
+        <form id="deleteStud" action="crudServlet" method="post">
+            <label for="rollNoDelete">Roll Number</label>	
+            <input type="text" placeholder="Enter roll number" name="rollNoDelete">    
+            <p id="btnsDelete"><input type="submit" name="submitDelete" value="Submit">&ensp;&ensp;&ensp;&ensp;<input type="reset" name="resetDelete" value="Reset"></p>
+        </form>
+    </body>
+</html>

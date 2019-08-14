@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elective Registration-Insert</title>
+        <link rel="stylesheet" type="text/css" href="electivestyle.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Insert</a> |
+            <a href="delete.html">Delete</a> |
+            <a href="update.html">Update</a> |
+            <a href="search.html">Search</a> |
+            <a href="crudServlet?param=value">View</a>
+        </nav>
+            <h1 id="formTitleInsert">Elective Registration- Insert</h1>
+            <form id="insertStud" action="crudServlet" method="post">
+                <label for="nameInsert">Name</label>	
+                <input type="text" placeholder="Enter full name" name="nameInsert">
+                <br><br>
+                <label for="rollNoInsert">Roll Number</label>	
+                <input type="text" placeholder="Enter roll number" name="rollNoInsert"> 
+                <br><br>
+                <label for="genderInsert">Gender</label><br><br>	
+                <input type="radio" name="genderInsert" value="male" checked>Male
+                <input type="radio" name="genderInsert" value="female">Female
+                <input type="radio" name="genderInsert" value="other">Other<br><br>
+                <label for="numInsert">Contact Number</label>	
+                <input type="text" placeholder="Enter mobile number" name="numInsert">
+                <br><br>
+                <label for="emailInsert">Email ID</label>
+                <input type="text" placeholder="Enter Email ID" name="emailInsert">
+                <br><br>
+                <label for="elective1Insert">Elective 1</label>
+                <select name="elective1Insert">
+                    <option value="Artificial Intelligence">Artificial Intelligence</option>
+                    <option value="Machine Learning">Machine Learning</option>
+                    <option value="Data Analytics">Data Analytics</option>
+                </select>
+                <br><br>
+                <label for="elective2Insert">Elective 2</label>
+                <select name="elective2Insert">
+                    <option value="Cyber Security">Cyber Security</option>
+                    <option value="Blockchain Technology">Blockchain Technology</option>
+                    <option value="Cryptography">Cryptography</option>
+                </select>
+                <br><br>
+                <p id="btnsInsert"><input type="submit" name="submitInsert" value="Submit">&ensp;&ensp;&ensp;&ensp;<input type="reset" name="resetInsert" value="Reset"></p>
+            </form>
+    </body>
+</html>
